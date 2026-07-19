@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white">
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
 A modern **responsive e-commerce storefront** built using **HTML, CSS, JavaScript, PHP, and MySQL**.
@@ -50,19 +49,19 @@ The project demonstrates a complete shopping experience including product browsi
 
 | Home | Shop |
 |------|------|
-| ![](screenshots/home.png) | ![](screenshots/shop.png) |
+| ![](WeShopping/screenshots/home.png) | ![](WeShopping/screenshots/shop.png) |
 
 | Men Products | Cart |
 |------|------|
-| ![](screenshots/men_products.png) | ![](screenshots/cart.png) |
+| ![](WeShopping/screenshots/men_products.png) | ![](WeShopping/screenshots/cart.png) |
 
 | About | Contact |
 |------|------|
-| ![](screenshots/about.png) | ![](screenshots/contact.png) |
+| ![](WeShopping/screenshots/about.png) | ![](WeShopping/screenshots/contact.png) |
 
 | Sign Up | Payment |
 |------|------|
-| ![](screenshots/signup.png) | ![](screenshots/payment.png) |
+| ![](WeShopping/screenshots/signup.png) | ![](WeShopping/screenshots/payment.png) |
 
 ---
 
