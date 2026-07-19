@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We Shopping web design services — website design, maintenance and hosting packages.">
+    <link rel="stylesheet" href="../css/Css.css">
+    <script src="https://kit.fontawesome.com/2bbac3a66c.js" crossorigin="anonymous"></script>
+    <title>Services | We Shopping</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container">
+            <a href="../index.html"><h2>We Shopping</h2></a>
+            <nav aria-label="Primary navigation">
+                <button type="button" class="toggle-menu" id="menu1"
+                        aria-label="Toggle navigation menu" aria-expanded="false">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+                <ul id="ul" role="list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./services.html" aria-current="page">Services</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./CONTACT.html">Contact</a></li>
+                    <li><a href="./signup.html">Sign Up</a></li>
+                    <li><a href="./payment.html">Payment</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
+                    <li class="cart-icon">
+                        <a href="./cart.html" aria-label="Shopping cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Newsletter bar -->
+        <div class="box-1">
+            <div class="container">
+                <h2 style="font-size:1rem; font-weight:600;">Subscribe to our newsletter</h2>
+                <form action="" aria-label="Newsletter subscription">
+                    <label for="newsletter-email" class="visually-hidden">Email address</label>
+                    <input type="email" id="newsletter-email" name="email"
+                           placeholder="Enter your email address" autocomplete="email" required>
+                    <button type="submit" class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="service" aria-labelledby="services-heading">
+            <div class="container">
+
+                <!-- Service list -->
+                <div class="service-1">
+                    <h1 id="services-heading">Our Services</h1>
+
+                    <div class="service-card">
+                        <h2>Website Design</h2>
+                        <p>We build fast, modern and fully responsive websites tailored to your brand and business goals. Every project includes mobile-first design, SEO foundation and a content management handover.</p>
+                        <span class="price-tag">Pricing: $1,000 – $3,000</span>
+                    </div>
+
+                    <div class="service-card">
+                        <h2>Website Maintenance</h2>
+                        <p>Keep your site healthy with our monthly maintenance plan. We handle security updates, performance checks, content changes and uptime monitoring so you can focus on running your business.</p>
+                        <span class="price-tag">Pricing: $250 / month</span>
+                    </div>
+
+                    <div class="service-card">
+                        <h2>Website Hosting</h2>
+                        <p>Managed hosting on fast, secure servers with daily backups, SSL certificate, and 99.9% uptime SLA. No technical setup needed — we handle everything from domain to deployment.</p>
+                        <span class="price-tag">Pricing: $250 / month</span>
+                    </div>
+                </div>
+
+                <!-- Quote form sidebar -->
+                <!-- NOTE: This form has no backend handler yet. See Backend Suggestions in README. -->
+                <div class="service-2">
+                    <form action="" aria-label="Request a quote">
+                        <h2>Get a Quote</h2>
+
+                        <label for="quote-name">Name</label>
+                        <input type="text" id="quote-name" name="name"
+                               placeholder="Your name" autocomplete="name" required>
+
+                        <label for="quote-email">Email</label>
+                        <input type="email" id="quote-email" name="email"
+                               placeholder="your@email.com" autocomplete="email" required>
+
+                        <label for="quote-message">Message</label>
+                        <textarea id="quote-message" name="message"
+                                  placeholder="Tell us about your project…" required></textarea>
+
+                        <button type="submit" class="button">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="popup-message" id="popup-message" role="status" aria-live="polite">
+        <p id="message-text"></p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-1">
+                <div class="webFooter">
+                    <h3>Online Store</h3>
+                    <p><a href="./men.html">Men Clothing</a></p>
+                    <p><a href="./woman.html">Women Clothing</a></p>
+                    <p><a href="./accessories.html">Accessories</a></p>
+                </div>
+                <div class="webFooter">
+                    <h3>Helpful Links</h3>
+                    <p><a href="../index.html">Home</a></p>
+                    <p><a href="./about.html">About</a></p>
+                    <p><a href="./CONTACT.html">Contact</a></p>
+                </div>
+            </div>
+            <p id="text1"></p>
+        </div>
+    </footer>
+
+    <button type="button" id="myBtn" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

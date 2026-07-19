@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+*.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Optional dependencies (if added later)
+node_modules/
+vendor/
+dist/
+build/
+
+# PHP / server
+*.cache
+*.session
+/vendor/
+
+# PHP composer (if added later)
+composer.lock
+composer.phar
+
+# Temporary files
+*.tmp
+*.temp
