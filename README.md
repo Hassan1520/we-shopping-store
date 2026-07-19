@@ -49,19 +49,19 @@ The project demonstrates a complete shopping experience including product browsi
 
 | Home | Shop |
 |------|------|
-| ![](WeShopping/screenshots/home.png) | ![](WeShopping/screenshots/shop.png) |
+| ![](screenshots/home.png) | ![](screenshots/shop.png) |
 
 | Men Products | Cart |
 |------|------|
-| ![](WeShopping/screenshots/men_products.png) | ![](WeShopping/screenshots/cart.png) |
+| ![](screenshots/men_products.png) | ![](WeShopping/screenshots/cart.png) |
 
 | About | Contact |
 |------|------|
-| ![](WeShopping/screenshots/about.png) | ![](WeShopping/screenshots/contact.png) |
+| ![](screenshots/about.png) | ![](screenshots/contact.png) |
 
 | Sign Up | Payment |
 |------|------|
-| ![](WeShopping/screenshots/signup.png) | ![](WeShopping/screenshots/payment.png) |
+| ![](screenshots/signup.png) | ![](screenshots/payment.png) |
 
 ---
 
@@ -113,7 +113,6 @@ we-shopping/
 
 ```bash
 git clone https://github.com/Hassan1520/we-shopping-store.git
-cd we-shopping
 ```
 
 ## Run the project
